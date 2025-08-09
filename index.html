@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Abhinav Sirohi</title>
+  <meta name="description" content="Notes, projects, and essays by Abhinav Sirohi." />
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css" />
+</head>
+<body>
+  <header>
+    <div class="site-title">Abhinav Sirohi</div>
+    <p class="tagline">A quiet corner on the web for projects, notes, and the occasional essay.</p>
+    <nav>
+      <a href="#about">About</a><span class="sep">|</span>
+      <a href="#projects">Projects</a><span class="sep">|</span>
+      <a href="#writing">Writing</a><span class="sep">|</span>
+      <a href="#contact">Contact</a>
+    </nav>
+    <hr />
+  </header>
+
+  <main>
+    <section id="about">
+      <h1>About</h1>
+      <p>I'm Abhinav. I build market data systems and enjoy clean, fast software. This site is intentionally simple—no frameworks, no JavaScript, just HTML and CSS.</p>
+      <p>Interests: systems programming, trading infrastructure, algorithms, and teaching with clear, simple explanations.</p>
+    </section>
+
+    <section id="projects">
+      <h1>Projects</h1>
+      <ul>
+        <li>
+          <strong>VelocityMap</strong> — a high‑performance Java hash table with Robin Hood hashing.
+          <div class="meta">Code: <a href="#">repo</a> · Notes: <a href="#">design doc</a></div>
+        </li>
+        <li>
+          <strong>Lucid</strong> — an AI‑assisted learning platform with a knowledge graph at its core.
+          <div class="meta">Overview: <a href="#">write‑up</a></div>
+        </li>
+        <li>
+          <strong>Market Data Logger</strong> — structured, low‑latency logging over UDP.
+          <div class="meta">Post: <a href="#">how it works</a></div>
+        </li>
+      </ul>
+    </section>
+
+    <section id="writing">
+      <h1>Writing</h1>
+      <ul class="postlist">
+        <li>
+          <a href="/posts/2025-08-09-hello.html">Hello, world (again)</a>
+          <div class="meta"><time datetime="2025-08-09">Aug 9, 2025</time> — On keeping a small, quiet website.</div>
+        </li>
+      </ul>
+      <p>Older: <a href="/archive.html">archive</a></p>
+    </section>
+
+    <section id="contact">
+      <h1>Contact</h1>
+      <p>Email: <a href="mailto:abhinav@example.com">abhinav@example.com</a> · GitHub: <a href="#">@abhinav</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <hr />
+    <p>Text only. No tracking, no cookies. <a href="/meta/feed.xml">RSS</a>.</p>
+    <p>&copy; <span id="y">2025</span> Abhinav Sirohi</p>
+  </footer>
+
+  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>

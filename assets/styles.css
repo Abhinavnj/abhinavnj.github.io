@@ -1,0 +1,75 @@
+:root {
+  --bg: #fffffe;
+  --ink: #111;
+  --ink-soft: #222;
+  --rule: #ddd;
+  --code-bg: #f6f6f6;
+  --link: #0645ad;
+  --visited: #0b0080;
+  --maxw: 68ch;
+}
+* { box-sizing: border-box; }
+html, body { background: var(--bg); color: var(--ink-soft); }
+body {
+  margin: 0;
+  padding: 0 1rem 4rem 1rem;
+  font: 16px/1.65 system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, "Noto Sans", "Helvetica Neue", Arial, sans-serif;
+}
+header, main, footer { max-width: 720px; margin: 0 auto; }
+header { padding: 2rem 0 1rem; }
+.site-title { color: var(--ink); font-weight: 700; font-size: 1.35rem; margin: 0 0 .25rem; }
+.tagline { margin: 0; font-size: .95rem; color: var(--ink-soft); }
+nav { margin: 1rem 0 1.25rem; font-size: .95rem; }
+nav a { color: var(--link); text-decoration: none; }
+nav a:hover { text-decoration: underline; }
+nav .sep { color: #aaa; padding: 0 .4rem; }
+
+h1, h2, h3 { color: var(--ink); line-height: 1.25; }
+h1 { font-size: 1.4rem; margin: 1.5rem 0 .5rem; }
+h2 { font-size: 1.15rem; margin: 1.25rem 0 .5rem; }
+p { margin: 0 0 1rem; }
+hr { border: 0; border-top: 1px solid var(--rule); margin: 1.5rem 0; }
+
+ul { padding-left: 1.25rem; }
+li + li { margin-top: .35rem; }
+
+a { color: var(--link); }
+a:visited { color: var(--visited); }
+
+.postlist { list-style: none; padding: 0; margin: .5rem 0; }
+.postlist li { padding: .4rem 0; border-bottom: 1px dotted var(--rule); }
+.postlist li:last-child { border-bottom: 0; }
+.postlist .meta { font-size: .85rem; color: #777; }
+
+pre, code { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+pre { background: var(--code-bg); padding: .75rem; overflow-x: auto; border: 1px solid var(--rule); }
+
+footer { font-size: .9rem; color: #666; margin-top: 2rem; }
+
+img { max-width: 100%; height: auto; }
+
+@media (max-width: 420px) {
+  header, main, footer { max-width: 92vw; }
+  body { padding: 0 .75rem 3rem .75rem; }
+}
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0e0f10;
+    --ink: #f2f2f2;
+    --ink-soft: #ddd;
+    --rule: #333;
+    --code-bg: #111;
+    --link: #93b7ff;
+    --visited: #b9a6ff;
+  }
+  html, body { background: var(--bg); color: var(--ink-soft); }
+}
+
+/* Print */
+@media print {
+  nav, footer { display: none; }
+  a[href]:after { content: " (" attr(href) ")"; font-size: .9em; }
+  body { color: #000; background: #fff; }
+}

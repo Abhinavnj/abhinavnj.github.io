@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Abhinav Sirohi — Notes & Essays</title>
+    <link>https://www.asirohi.com/</link>
+    <description>Simple posts on systems, markets, and software.</description>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 09 Aug 2025 00:00:00 -0456</lastBuildDate>
+    <item>
+      <title>Hello, world (again)</title>
+      <link>https://www.asirohi.com/posts/2025-08-09-hello.html</link>
+      <guid>https://www.asirohi.com/posts/2025-08-09-hello.html</guid>
+      <pubDate>Sat, 09 Aug 2025 00:00:00 -0456</pubDate>
+      <description>On keeping a small, quiet website.</description>
+    </item>
+  </channel>
+</rss>
