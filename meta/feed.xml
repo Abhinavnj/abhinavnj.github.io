@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>Abhinav Sirohi — Notes & Essays</title>
+    <title>Abhinav Sirohi — Notes &amp; Essays</title>
     <link>https://www.asirohi.com/</link>
     <description>Simple posts on systems, markets, and software.</description>
     <language>en-us</language>
@@ -12,6 +12,20 @@
       <guid>https://www.asirohi.com/posts/2025-08-09-hello.html</guid>
       <pubDate>Sat, 09 Aug 2025 00:00:00 -0456</pubDate>
       <description>On keeping a small, quiet website.</description>
+    </item>
+    <item>
+      <title>Making a faster hash table</title>
+      <link>https://www.asirohi.com/posts/2025-08-10-faster-hash-table.html</link>
+      <guid>https://www.asirohi.com/posts/2025-08-10-faster-hash-table.html</guid>
+      <pubDate>Sat, 10 Aug 2025 00:00:00 -0456</pubDate>
+      <description>On designing a faster hash table than Java's HashMap.</description>
+    </item>
+    <item>
+      <title>A new education system</title>
+      <link>https://www.asirohi.com/posts/2025-08-10-a-new-education-system.html</link>
+      <guid>https://www.asirohi.com/posts/2025-08-10-a-new-education-system.html</guid>
+      <pubDate>Sat, 10 Aug 2025 00:00:00 -0456</pubDate>
+      <description>On designing a new education system.</description>
     </item>
   </channel>
 </rss>
